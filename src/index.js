@@ -2,11 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import NonnaAppBar from './components/NonnaAppBar';
 import reportWebVitals from './reportWebVitals';
+
+// esto tiene que ir en app
+import { ThemeProvider } from "@mui/material/styles";
+import theme from "./assets/theme";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider theme={theme}>
+      <NonnaAppBar />
+      <App />
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
