@@ -16,6 +16,10 @@ const useStyles = makeStyles((theme) => ({
   },
   title: {
     flexGrow: 1,
+  },
+  appBar: {
+    color: "#000",
+    backgroundColor: "#FFF"
   }
 }));
 
@@ -24,7 +28,7 @@ export default function NonnaAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar className={classes.appBar} position="static">
         <Toolbar>
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
             <FaceIcon />

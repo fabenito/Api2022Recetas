@@ -5,16 +5,10 @@ import App from './App';
 import NonnaAppBar from './components/NonnaAppBar';
 import reportWebVitals from './reportWebVitals';
 
-// esto tiene que ir en app
-import { ThemeProvider } from "@mui/material/styles";
-import theme from "./assets/theme";
-
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider theme={theme}>
-      <NonnaAppBar />
-      <App />
-    </ThemeProvider>
+    <NonnaAppBar />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
