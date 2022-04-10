@@ -20,6 +20,25 @@ const useStyles = makeStyles((theme) => ({
   appBar: {
     color: "#000",
     backgroundColor: "#FFF"
+  },
+  menuButtonSecondary: {
+    marginLeft: "5px",
+    marginRight: "5px"
+  },
+  menuButtonSecondary: {
+    color: "#FF8A00",
+    borderRadius: "20px",
+    border: "1px solid #FF8A00",
+    boxSizing: "border-box",
+    marginLeft: "5px",
+    marginRight: "5px"
+  },
+  menuButtonPrimary: {
+    backgroundColor: "#FF8A00",
+    color: "#FFF",
+    borderRadius: "20px",
+    marginLeft: "5px",
+    marginRight: "5px"
   }
 }));
 
@@ -36,11 +55,11 @@ export default function NonnaAppBar() {
           <Typography variant="h6" className={classes.title}>
             La Nonna
           </Typography>
-          <Button color="inherit">Recetas</Button>
-          <Button color="inherit">Categorías</Button>
-          <Button className="menuButtonSecondary">Ingresar</Button>
-          <Button className="menuButtonSecondary">Mi Perfil</Button>
-          <Button className="menuButtonPrimary">Registrate</Button>
+          <Button color="inherit" className={classes.menuButton}>Recetas</Button>
+          <Button color="inherit" className={classes.menuButton}>Categorías</Button>
+          <Button className={classes.menuButtonSecondary}>Ingresar</Button>
+          <Button className={classes.menuButtonSecondary}>Mi Perfil</Button>
+          <Button className={classes.menuButtonPrimary}>Registrate</Button>
         </Toolbar>
       </AppBar>
     </div>
