@@ -47,15 +47,11 @@ const useStyles = makeStyles((theme) => ({
   },
   menuButtonSecondary: {
     marginLeft: "5px",
-    marginRight: "5px"
-  },
-  menuButtonSecondary: {
+    marginRight: "5px",
     color: "#FF8A00",
     borderRadius: "20px",
     border: "1px solid #FF8A00",
-    boxSizing: "border-box",
-    marginLeft: "5px",
-    marginRight: "5px"
+    boxSizing: "border-box"
   },
   menuButtonPrimary: {
     backgroundColor: "#FF8A00",

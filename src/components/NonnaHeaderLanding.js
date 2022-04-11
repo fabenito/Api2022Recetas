@@ -8,9 +8,7 @@ import { Container, TextField } from '@material-ui/core';
 import { styled } from '@mui/material/styles';
 import InputAdornment from '@mui/material/InputAdornment';
 import IconButton from '@mui/material/IconButton';
-import Icon from '@mui/material/Icon';
 import SearchIcon from '@mui/icons-material/Search';
-
 
 export default function NonnaHeaderLanding() {
   const classes = useStyles();
@@ -19,24 +17,28 @@ export default function NonnaHeaderLanding() {
     <div className={classes.landing}>
         <Stack spacing={2}>
             <Container>
-                <Typography className={classes.landingText} variant="h3">
+                <Typography className={classes.landingTitle} variant="h3">
                     Los secretos de La Nonna
                 </Typography>
-                <Typography className={classes.landingText} variant="h5">
+                <Typography className={classes.landingSubtitle} variant="h5">
                     Compartí los secretos de tu nonna
                 </Typography>
             </Container>
             <Container>
-                <StyledTextField fullWidth variant="outlined" label="Encontrá la receta que buscabas..." 
-                InputProps={{
-                    endAdornment: (
-                      <InputAdornment position="end">
-                          <IconButton edge="end" >
-                            <SearchIcon />
-                          </IconButton>
-                      </InputAdornment>
-                    ),
-                  }}
+                <StyledTextField 
+                    fullWidth 
+                    variant="outlined" 
+                    label="Encontrá la receta que buscabas..." 
+                    className={classes.searchInput}
+                    InputProps={{
+                        endAdornment: (
+                        <InputAdornment position="end">
+                            <IconButton edge="end" >
+                                <SearchIcon />
+                            </IconButton>
+                        </InputAdornment>
+                        ),
+                    }}
                 />
             </Container>
         </Stack>
@@ -44,14 +46,32 @@ export default function NonnaHeaderLanding() {
   );
 }
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   landing: {
-    height: "300px",
-    backgroundImage: `url(${background})`
+    backgroundImage: `url(${background})`,
+    paddingLeft: "200px",
+    paddingRight: "200px"
   },
-  landingText: {
+  landingTitle: {
+    marginTop: "85px",
+    textShadow: "0px 4px 10px rgba(0, 0, 0, 0.90);",
+    textAlign: "center",
     color: "#FFF",
     borderColor: "#FFF"
+  },
+  landingSubtitle: {
+    textShadow: "0px 4px 10px rgba(0, 0, 0, 0.90);",
+    textAlign: "center",
+    color: "#FFF",
+    borderColor: "#FFF",
+    marginBottom: "100px"
+  },
+  searchInput: {
+    color: "black",
+    backgroundColor: "rgba(255, 255, 255, 0.8)",
+    borderRadius: "20px",
+    borderBottomColor: 'white',
+    marginBottom: "135px",
   }
 }));
 
@@ -59,12 +79,8 @@ const StyledTextField = styled(TextField)({
     '& label.Mui-focused': {
       color: 'black',
     },
-    '& .MuiInput-underline:after': {
-      borderBottomColor: 'white',
-    },
     '& .MuiInputBase-input': {
         borderRadius: 20,
-        backgroundColor: "rgba(255, 255, 255, 0.8)",
         fontSize: 16,
     },
     '& .MuiOutlinedInput-root': {
@@ -81,4 +97,4 @@ const StyledTextField = styled(TextField)({
         borderRadius: "20px"
       },
     },
-  });
+});
