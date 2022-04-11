@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import NonnaAppBar from './components/NonnaAppBar';
+import NonnaSectionTitle from './components/NonnaSectionTitle';
 import NonnaHeaderLanding from './components/NonnaHeaderLanding';
 import reportWebVitals from './reportWebVitals';
 
@@ -10,6 +11,8 @@ ReactDOM.render(
   <React.StrictMode>
     <NonnaAppBar />
     <NonnaHeaderLanding />
+    <NonnaSectionTitle sectionTitle="Recetas destacadas" />
+    <NonnaSectionTitle sectionTitle="Categorías" />
     <App />
   </React.StrictMode>,
   document.getElementById('root')
