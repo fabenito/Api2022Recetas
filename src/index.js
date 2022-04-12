@@ -6,9 +6,11 @@ import NonnaAppBar from './components/NonnaAppBar';
 import NonnaSectionTitle from './components/NonnaSectionTitle';
 import NonnaHeaderLanding from './components/NonnaHeaderLanding';
 import reportWebVitals from './reportWebVitals';
+import CssBaseline from '@mui/material/CssBaseline';
 
 ReactDOM.render(
   <React.StrictMode>
+    <CssBaseline />
     <NonnaAppBar />
     <NonnaHeaderLanding />
     <NonnaSectionTitle sectionTitle="Recetas destacadas" />

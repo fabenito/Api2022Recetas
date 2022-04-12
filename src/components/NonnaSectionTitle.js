@@ -1,7 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
-import { Stack } from '@mui/material';
 
 export default function NonnaSectionTitle(props) {
   const classes = useStyles();
