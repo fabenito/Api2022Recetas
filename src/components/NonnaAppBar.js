@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -6,12 +6,14 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import FaceIcon from '@mui/icons-material/Face';
-import { useMediaQuery } from '@material-ui/core';
+import MenuIcon from '@mui/icons-material/Menu';
+import { Drawer, List, ListItem, useMediaQuery } from '@material-ui/core';
 
 export default function NonnaAppBar() {
   const classes = useStyles();
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
+  const [openDrawer, setOpenDrawer] = useState(true);
 
   return (
     <div className={classes.root}>
@@ -27,7 +29,32 @@ export default function NonnaAppBar() {
           
           { isMobile ? (
             <>
-              <Button color="inherit" className={classes.menuButton}>Menu</Button>
+              <IconButton onClick={() => setOpenDrawer(!openDrawer)} >
+                <MenuIcon></MenuIcon>
+              </IconButton>
+              <Drawer
+                anchor='right'
+                onClose = {() => setOpenDrawer(false)}
+                open={openDrawer}
+                >
+                  <List>
+                    <ListItem>
+                      <Button color="inherit" className={classes.menuButton}>Recetas</Button>
+                    </ListItem>  
+                    <ListItem>
+                      <Button color="inherit" className={classes.menuButton}>Categorías</Button>
+                    </ListItem>  
+                    <ListItem>
+                      <Button className={classes.menuButtonSecondary}>Ingresar</Button>
+                    </ListItem>  
+                    <ListItem>
+                      <Button className={classes.menuButtonSecondary}>Mi Perfil</Button>
+                    </ListItem>  
+                    <ListItem>
+                      <Button className={classes.menuButtonPrimary}>Registrate</Button>
+                    </ListItem>  
+                  </List>
+              </Drawer>
             </>
           ) : (
             <>
