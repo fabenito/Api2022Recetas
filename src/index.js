@@ -5,6 +5,7 @@ import App from './App';
 import NonnaAppBar from './components/NonnaAppBar';
 import NonnaSectionTitle from './components/NonnaSectionTitle';
 import NonnaHeaderLanding from './components/NonnaHeaderLanding';
+import NonnaRecipeResume from './components/NonnaRecipeResume';
 import reportWebVitals from './reportWebVitals';
 import CssBaseline from '@mui/material/CssBaseline';
 
@@ -15,6 +16,22 @@ ReactDOM.render(
     <NonnaHeaderLanding />
     <NonnaSectionTitle sectionTitle="Recetas destacadas" />
     <NonnaSectionTitle sectionTitle="Categorías" />
+    <NonnaRecipeResume 
+      image="pollo_teriyaki"
+      recipeTitle="Pollo teriyaki"
+      recipeDescription="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam."
+      rating="4"
+      dificulty="Fácil"
+      vegan={true}
+      celiac={true} />
+
+<NonnaRecipeResume 
+      image="pollo_teriyaki"
+      recipeTitle="Pollo tandori"
+      recipeDescription="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos blanditiis tenetur unde suscipit, quam beatae rerum inventore consectetur, neque doloribus, cupiditate numquam dignissimos laborum fugiat deleniti? Eum quasi quidem quibusdam."
+      rating="3"
+      dificulty="Difícil"
+      celiac={true} />
     <App />
   </React.StrictMode>,
   document.getElementById('root')

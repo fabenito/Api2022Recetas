@@ -35,8 +35,7 @@ export default function NonnaAppBar() {
               <Drawer
                 anchor='right'
                 onClose = {() => setOpenDrawer(false)}
-                open={openDrawer}
-                >
+                open={openDrawer}>
                   <List>
                     <ListItem>
                       <Button color="inherit" className={classes.menuButton}>Recetas</Button>
