@@ -36,7 +36,7 @@ export default function NonnaLogin() {
         <div className={classes.root}>
             <Stack>
                 <Container>
-                    <Typography className={classes.loginTitle} variant="h3">
+                    <Typography className={classes.loginTitle} variant="h4">
                         Inicia sesión
                     </Typography>
                 </Container>
@@ -90,7 +90,8 @@ const useStyles = makeStyles(() => ({
         marginRight: "100px"
     },
     loginTitle: {
-        textAlign: "center"
+        textAlign: "center",
+        marginBottom: "50px"
     },
     searchInput: {
         color: "black",
@@ -102,11 +103,14 @@ const useStyles = makeStyles(() => ({
     }
 }));
 
-
 const LoginButton = styled(Button)(({ theme }) => ({
     color: theme.palette.getContrastText(orange[500]),
     backgroundColor: orange[500],
     '&:hover': {
         backgroundColor: orange[700],
     },
+    borderRadius: 20,
+    paddingLeft: "15px",
+    paddingRight: "15px",
+    marginBottom: "15px"
 }));
