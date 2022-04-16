@@ -73,7 +73,7 @@ export default function NonnaLogin() {
                     />
                 </Container>
                 <Container>
-                    <Stack>
+                    <Stack className={classes.loginButtons}>
                         <LoginButton>Ingresar</LoginButton>
                         <Link href="#" color="inherit">Olvidaste la contraseña?</Link>
                         <Link href="#" color="inherit">No tenés cuenta? Registrate!</Link>
@@ -96,6 +96,9 @@ const useStyles = makeStyles(() => ({
         color: "black",
         borderBottomColor: 'white',
         marginBottom: "25px",
+    },
+    loginButtons: {
+        alignItems: "center"
     }
 }));
 
