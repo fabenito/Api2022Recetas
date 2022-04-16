@@ -14,7 +14,7 @@ export default function NonnaRecipeResume(props) {
     return (
         <div className={classes.root}>
             <div className={classes.recipeImage}>
-                <img url={require(`../img/${props.image}.png`)} height="100px" width="100px" />
+                <img url={require(`../img/${props.image}.png`)} height="100px" width="100px" alt={props.recipeTitle} />
             </div>
             <div>
                 <Stack spacing={2}>
@@ -40,23 +40,23 @@ export default function NonnaRecipeResume(props) {
                             </Typography>
                         </div>
 
-                        {props.vegan == true ?
+                        {props.vegan === true ?
                             <div className={classes.rating}>
                                 <Typography variant="body1" className={classes.boldText}>
                                     Apto vegano:
                                 </Typography>
-                                <img url={vegan} width="23px" height="23px" />
+                                <img url={vegan} width="23px" height="23px" alt="Apto vegano" />
                             </div>
                             : <>
                             </>
                         }
 
-                        {props.celiac == true ?
+                        {props.celiac === true ?
                             <div className={classes.rating}>
                                 <Typography variant="body1" className={classes.boldText}>
                                     Apto celíaco:
                                 </Typography>
-                                <img url={celiac} width="23px" height="23px" />
+                                <img url={celiac} width="23px" height="23px" alt="Apto celíaco" />
                             </div>
                             : <>
                             </>
