@@ -7,6 +7,7 @@ import NonnaSectionTitle from './components/NonnaSectionTitle';
 import NonnaHeaderLanding from './components/NonnaHeaderLanding';
 import NonnaRecipeResume from './components/NonnaRecipeResume';
 import NonnaLogin from './components/NonnaLogin';
+import NonnaRegister from './components/NonnaRegister';
 import reportWebVitals from './reportWebVitals';
 import CssBaseline from '@mui/material/CssBaseline';
 
@@ -33,6 +34,7 @@ ReactDOM.render(
       dificulty="Difícil"
       celiac={true} />
     <NonnaLogin />
+    <NonnaRegister />
     <App />
   </React.StrictMode>,
   document.getElementById('root')
