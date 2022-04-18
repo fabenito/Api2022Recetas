@@ -104,7 +104,7 @@ const useStyles = makeStyles(() => ({
 }));
 
 const LoginButton = styled(Button)(({ theme }) => ({
-    color: theme.palette.getContrastText(orange[500]),
+    color: "#FFF",
     backgroundColor: orange[500],
     '&:hover': {
         backgroundColor: orange[700],
