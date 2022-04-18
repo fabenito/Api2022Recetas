@@ -35,6 +35,7 @@ ReactDOM.render(
       celiac={true} />
     <NonnaLogin />
     <NonnaRegister />
+    <NonnaFooter />
   </React.StrictMode>,
   document.getElementById('root')
 );
