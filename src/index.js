@@ -10,6 +10,7 @@ import NonnaLogin from './components/NonnaLogin';
 import NonnaRegister from './components/NonnaRegister';
 import reportWebVitals from './reportWebVitals';
 import CssBaseline from '@mui/material/CssBaseline';
+import NonnaFooter from './components/NonnaFooter';
 
 ReactDOM.render(
   <React.StrictMode>
