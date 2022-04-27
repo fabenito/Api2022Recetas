@@ -53,7 +53,7 @@
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contribuir</a></li>
     <li><a href="#license">Licencia</a></li>
-    <li><a href="#contact">Contacto</a></li>
+    <li><a href="#contacto">Contacto</a></li>
     <li><a href="#acknowledgments">Reconocimientos</a></li>
   </ol>
 </details>
