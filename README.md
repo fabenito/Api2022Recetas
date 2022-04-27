@@ -10,23 +10,23 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">La Nonna Recetas</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Una asombrosa pagina para poder compartir las recetas de tu nonna al igual que ver las recetas de otras nonnas!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explorar la documentacion »</strong></a>
+    <a href="https://github.com/"><strong>Explorar la documentacion »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">Ver Demo</a>
+    <a href="https://github.com/">Ver Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Reportar Bug</a>
+    <a href="https://github.com/">Reportar Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Solicitar Feature</a>
+    <a href="https://github.com/">Solicitar Feature</a>
   </p>
 </div>
 
