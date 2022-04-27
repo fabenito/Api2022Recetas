@@ -147,13 +147,11 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+- [x] Agregar Changelog
+- [ ] Agregar documentacion "components" para facilitar la seleccion de los mismos desde el readme
+- [ ] Soporte multi lenguaje
+    - [ ] italiano
+    - [ ] ingles
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
@@ -162,7 +160,7 @@ See the [open issues](https://github.com/othneildrew/Best-README-Template/issues
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+## Contribuir
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -180,7 +178,7 @@ Don't forget to give the project a star! Thanks again!
 
 
 <!-- LICENSE -->
-## License
+## Licencia
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
@@ -189,7 +187,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 <!-- CONTACT -->
-## Contact
+## Contacto
 
 Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
 
@@ -200,15 +198,15 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+## Reconocimientos
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+Remplazar con todos los recursos que utilizamos para llevar acabo el proyecto!
 
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
+* [Material UI](https://mui.com/)
+* [Unsplash](https://unsplash.com)
+* [W3schools](https://www.w3schools.com/)
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
