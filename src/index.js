@@ -11,6 +11,7 @@ import NonnaRegister from './components/NonnaRegister';
 import reportWebVitals from './reportWebVitals';
 import CssBaseline from '@mui/material/CssBaseline';
 import NonnaFooter from './components/NonnaFooter';
+import NonnaLogin2  from './components/NonnaLogin2';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -36,6 +37,7 @@ ReactDOM.render(
       celiac={true} />
     <NonnaLogin />
     <NonnaRegister />
+    <NonnaLogin2 />
     <NonnaFooter />
   </React.StrictMode>,
   document.getElementById('root')
