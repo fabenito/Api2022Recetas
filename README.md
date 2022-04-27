@@ -37,24 +37,24 @@
   <summary>Tabla de Contenidos</summary>
   <ol>
     <li>
-      <a href="#about-the-project">Acerca del proyecto</a>
+      <a href="#acaerca del proyecto">Acerca del proyecto</a>
       <ul>
-        <li><a href="#built-with">Tecnologias</a></li>
+        <li><a href="#tecnologias">Tecnologias</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Como Comenzar</a>
+      <a href="#como comenar">Como Comenzar</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisitos</a></li>
-        <li><a href="#installation">Instalacion</a></li>
+        <li><a href="#prerequisitos">Prerequisitos</a></li>
+        <li><a href="#instalacion">Instalacion</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Uso</a></li>
+    <li><a href="#uso">Uso</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contribuir</a></li>
-    <li><a href="#license">Licencia</a></li>
+    <li><a href="#contribuir">Contribuir</a></li>
+    <li><a href="#licencia">Licencia</a></li>
     <li><a href="#contacto">Contacto</a></li>
-    <li><a href="#acknowledgments">Reconocimientos</a></li>
+    <li><a href="#reconocimientos">Reconocimientos</a></li>
   </ol>
 </details>
 
