@@ -37,13 +37,13 @@
   <summary>Tabla de Contenidos</summary>
   <ol>
     <li>
-      <a href="#acaerca-del-sproyecto">Acerca del proyecto</a>
+      <a href="#acaerca-del-sproyecto">Acerca-del-proyecto</a>
       <ul>
         <li><a href="#tecnologias">Tecnologias</a></li>
       </ul>
     </li>
     <li>
-      <a href="#como-comenar">Como Comenzar</a>
+      <a href="#como-comenar">Como-Comenzar</a>
       <ul>
         <li><a href="#prerequisitos">Prerequisitos</a></li>
         <li><a href="#instalacion">Instalacion</a></li>
