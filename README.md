@@ -37,7 +37,7 @@
   <summary>Tabla de Contenidos</summary>
   <ol>
     <li>
-      <a href="#acaerca-del-proyecto">Acerca del proyecto</a>
+      <a href="#acaerca-del-sproyecto">Acerca del proyecto</a>
       <ul>
         <li><a href="#tecnologias">Tecnologias</a></li>
       </ul>
@@ -61,7 +61,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## Acerca del Proyecto
+## Acerca-del-Proyecto
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
@@ -95,7 +95,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 
 <!-- GETTING STARTED -->
-## Como Comenzar
+## Como-Comenzar
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
